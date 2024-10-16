@@ -6,8 +6,13 @@ import './App.css';
 function App() {
   return (
     <>
-      <Hewwo />
-      <Tutowial />
+      <div id="content">
+        <div id="title">
+          react javascript boilerplate
+          <Hewwo />
+        </div>
+        <Tutowial />
+      </div>
       <footer>
         <span>Created in 2024 with </span>
         <img id="heartemoji" src="https://em-content.zobj.net/source/twitter/154/heavy-black-heart_2764.png" draggable="false" alt="heart emoji" />

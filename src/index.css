@@ -3,3 +3,18 @@ html, body {
     background: black;
     color: white;
 }
+
+div#root>div#content {
+    display: grid;
+    grid-template-columns: 400px 350px auto;
+    grid-template-rows: 112.5px 325px auto;
+    padding: 33.3px 50px;
+    gap: 16.7px 25px;
+}
+
+div#content>div#title {
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+    font-size: 48px;
+    grid-row: 1;
+    grid-column: 1 / 3;
+}
