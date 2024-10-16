@@ -1,0 +1,11 @@
+pre#structure {
+    white-space: preserve;
+    line-break: anywhere;
+    margin: 0;
+    padding: 24px 64px;
+    border: 1px white solid;
+    border-radius: 16px;
+    width: max-content;
+    grid-column: 1;
+    grid-row: 2;
+}

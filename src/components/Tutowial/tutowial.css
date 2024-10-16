@@ -1,11 +1,24 @@
-pre#structure {
+div.checklist {
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
     white-space: preserve;
-    line-break: anywhere;
-    margin: 0;
-    padding: 24px 64px;
-    border: 1px white solid;
-    border-radius: 16px;
-    width: max-content;
-    grid-column: 1;
-    grid-row: 2;
+    font-size: 16px;
+    align-items: baseline;
+    grid-column: 3;
+    grid-row: 1 / 4;
+}
+
+pre.code {
+  padding: 8px;
+  background: #0F0F0F;
+  border-radius: 8px;
+  border: 1px solid #1F1F1F;
+  width: fit-content;
+}
+
+div.checklist>ol {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
 }

@@ -1,0 +1,40 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', "Noto Sans JP";
+    font-weight: 600;
+    white-space: break-spaces;
+    text-transform: uppercase;
+    background-color: #0F0F0F;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1)
+    }
+    5% {
+        transform: scale(1.25)
+    }
+    25% {
+        transform: scale(1)
+    }
+    35% {
+        transform: scale(1.25)
+    }
+    60% {
+        transform: scale(1)
+    }
+}
+
+img#heartemoji {
+    height: 15px;
+    position: relative;
+    animation: pulse 0.9375s linear 0s infinite normal;
+}
